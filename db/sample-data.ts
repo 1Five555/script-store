@@ -1,0 +1,56 @@
+const sampleData = {
+  products: [
+    {
+      name: "Polo Sporting Stretch Shirt",
+      slug: "polo-sporting-stretch-shirt",
+      category: "Men's Dress Shirts",
+      description: "Classic Polo style with modern comfort",
+      images: [
+        "/images/sample-products/p1-1.jpg",
+        "/images/sample-products/p1-2.jpg",
+      ],
+      price: "59.99",
+      brand: "Amani",
+      rating: "4.5",
+      numReviews: 10,
+      stock: 5,
+      isFeatured: true,
+      banner: "",
+    },
+    {
+      name: "White Sporting  Shirt",
+      slug: "white-sporting-shirt",
+      category: "Men's Dress Shirts",
+      description: "Classic Polo style with modern comfort",
+      images: [
+        "/images/sample-products/p2-1.jpg",
+        "/images/sample-products/p2-2.jpg",
+      ],
+      price: "85.90",
+      brand: "Polo",
+      rating: "4.2",
+      numReviews: 8,
+      stock: 5,
+      isFeatured: true,
+      banner: "",
+    },
+    {
+      name: "Rainbow Long  Shirt",
+      slug: "rainbow-long-shirt",
+      category: "Men's Dress Shirts",
+      description: "Classic Polo style with modern comfort",
+      images: [
+        "/images/sample-products/p3-1.jpg",
+        "/images/sample-products/p3-2.jpg",
+      ],
+      price: "99.90",
+      brand: "Polo",
+      rating: "4.9",
+      numReviews: 3,
+      stock: 0,
+      isFeatured: true,
+      banner: "",
+    },
+  ],
+};
+export default sampleData;
