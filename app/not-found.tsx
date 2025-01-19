@@ -1,5 +1,5 @@
 "use client";
-import { META_DATA } from "@/lib";
+import { META_DATA } from "@/lib/constants";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import React from "react";

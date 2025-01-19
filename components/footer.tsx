@@ -1,5 +1,5 @@
 import React from "react";
-import { META_DATA } from "@/lib";
+import { META_DATA } from "@/lib/constants";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

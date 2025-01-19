@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { META_DATA } from "@/lib";
+import { META_DATA } from "@/lib/constants";
 import Menu from "@/components/shared/header/menu";
 
 const Header = () => {
