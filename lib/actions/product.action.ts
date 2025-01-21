@@ -16,3 +16,10 @@ export const getLatestProduct = async (): Promise<Product[]> => {
     rating: Number(product.rating.toString()), // 将 Decimal 转换为 number
   }));
 };
+
+//get single product by slug
+export const getProductBySlug = async (slug: string) => {
+  return await prisma.product.findFirst({
+    where: { slug },
+  });
+};
